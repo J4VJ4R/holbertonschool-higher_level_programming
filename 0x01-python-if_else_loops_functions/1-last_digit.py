@@ -7,7 +7,7 @@ if n < 0:
     ld = n % 10
     ld *= -1
     n *= -1
-if lastdigit > 5:
+if ld > 5:
     print("Last digit of {} is {} and is greater than 5".format(n, ld))
 if ld == 0:
     print("Last digit of {} is {} and is 0".format(n, ld))
