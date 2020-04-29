@@ -4,5 +4,5 @@ def remove_char_at(str, n):
         if n == i:
             dup = str.replace(str[n], "")
             return dup
-        else:
-            return str
+    else:
+        return str
