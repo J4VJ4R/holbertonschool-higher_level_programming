@@ -1,16 +1,15 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10000, 10000)
-lastdigit = number % 10
-if number < 0:
-    number = number * -1
-    lastdigit = number % 10
-    lastdigit *= -1
-    number *= -1
+n = random.randint(-10000, 10000)
+ld = n % 10
+if n < 0:
+    n = n * -1
+    ld = n % 10
+    ld *= -1
+    n *= -1
 if lastdigit > 5:
-    print("Last digit of {} is {} and is greater than 5".format(number, lastdigit))
-if lastdigit == 0:
-    print("Last digit of {} is {} and is 0".format(number, lastdigit))
-if lastdigit < 6 and lastdigit != 0:
-    print("Last digit of {} is {} and is less than 6 and not 0".format(number, lastdigit))
-
+    print("Last digit of {} is {} and is greater than 5".format(n, ld))
+if ld == 0:
+    print("Last digit of {} is {} and is 0".format(n, ld))
+if ld < 6 and ld != 0:
+    print("Last digit of {} is {} and is less than 6 and not 0".format(n, ld))
