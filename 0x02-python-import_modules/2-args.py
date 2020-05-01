@@ -5,7 +5,7 @@ if __name__ == "__main__":
     import sys
 
     entradasys = sys.argv
-    len_entradsys = len(entradasys)
+    len_entradasys = len(entradasys)
     if len_entradasys == 1:
         print("0 arguments.")
         exit()
