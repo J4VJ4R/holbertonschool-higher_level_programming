@@ -2,10 +2,13 @@
 if __name__ == "__main__":
 
     import sys
-    len_entradasys = len(sys.argv)
+    entradasys = sys.argv
+    len_entradasys = len(entradasys)
     if len_entradasys == 1:
         print("0 arguments.")
+        exit()
     elif len_entradasys == 2:
+        print("1 argument:")
         print("1: {}".format(sys.argv[1]))
     else:
         print("{:d} arguments:".format(len_entradasys - 1))
