@@ -15,4 +15,3 @@ if __name__ == "__main__":
         print("{:d} arguments:".format(len_entradasys - 1))
         for i in range(1, len_entradasys):
             print("{:d}: {}".format(i, sys.argv[i]))
-
