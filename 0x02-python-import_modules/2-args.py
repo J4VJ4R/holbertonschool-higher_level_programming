@@ -4,7 +4,7 @@ if __name__ == "__main__":
 
     import sys
 
-    entradasys = sys.arg
+    entradasys = sys.argv
     len_entradsys = len(entradasys)
     if len_entradasys == 1:
         print("0 arguments.")
@@ -15,4 +15,4 @@ if __name__ == "__main__":
         print("{:d} arguments:".format(len_argv - 1))
         for i in range(1, len_argv):
             print("{:d}: {}".format(i, sys.argv[i]))
-        
+
