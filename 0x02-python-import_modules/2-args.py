@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-
 if __name__ == "__main__":
 
     import sys
-
     entradasys = sys.argv
     len_entradasys = len(entradasys)
     if len_entradasys == 1:
@@ -15,4 +13,3 @@ if __name__ == "__main__":
         print("{:d} arguments:".format(len_entradasys - 1))
         for i in range(1, len_entradasys):
             print("{:d}: {}".format(i, sys.argv[i]))
-            
