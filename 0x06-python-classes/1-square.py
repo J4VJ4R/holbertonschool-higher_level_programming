@@ -5,7 +5,6 @@
 class Square:
     """Here you can write attributes
     and methods."""
-    
     def __init__(self, size):
         """Create a square.
 
