@@ -12,6 +12,5 @@ class Square:
         Args:
             size (int): Size of the square
         """
-        
-        self.__size = size
 
+        self.__size = size
