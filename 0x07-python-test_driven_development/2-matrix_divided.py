@@ -19,7 +19,7 @@ def matrix_divided(matrix, div):
     for i in matrix:
         if len(i) == 0:
             raise TypeError(e)
-        for j in matrix:
+        for j in i:
             if type(j) != int and type(j) != float:
                 raise TypeError(e)
     listReload = []
