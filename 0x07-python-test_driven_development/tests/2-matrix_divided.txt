@@ -11,3 +11,16 @@ correct cases
 
     >>> matrix_divided([2, 4], [8, 10], -2)
     [[-1.0, -2.0], [-4.0, -5.0]]
+
+    >>> matrix_divided([[1, 1], [2, 2]], float('inf))
+    [[0.0, 0.0], [0.0, 0.0]]
+
+    >>> matrix = [[1, 2, 3]]
+    >>> matrix_divided(matrix, 3)
+    [[0.33, 0.67, 1.0]]
+
+cases with errors
+
+    >>>matrix_divided()
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
