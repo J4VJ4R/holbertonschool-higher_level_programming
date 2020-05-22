@@ -5,38 +5,34 @@ In this case it does the module "0-add_integer"
 Import file:
 >>> add_integer = __import__('0-add_integer').add_integer
 
-Test with two positive integer numbers:	Test with two positive integer numbers:
->>> add_integer(1, 2)	    >>> add_integer(1, 2)
-3	    3
+Test with two positive integer numbers:
+    >>> add_integer(1, 2)
+    3
 
+Test with two negative integer numbers:
+    >>> add_integer(-1, -2)
+    -3
 
-Test with two negative integer numbers:	Test with two negative integer numbers:
->>> add_integer(-1, -2)	    >>> add_integer(-1, -2)
--3	    -3
+Test with one negative number and one positive number:
+    >>> add_integer(-1, 2)
+    1
 
+Test with one negative number and one positive float number:
+    >>> add_integer(-1, 2.1)
+    1
 
-Test with one negative number and one positive number:	Test with one negative number and one positive number:
->>> add_integer(-1, 2)	    >>> add_integer(-1, 2)
-1	    1
-
-
-Test with one negative number and one positive float number:	Test with one negative number and one positive float number:
->>> add_integer(-1, 2.1)	    >>> add_integer(-1, 2.1)
-1	    1
-
-
-Test with one negative number:	Test with one negative number:
->>> add_integer(-1)	    >>> add_integer(-1)
-97	    97
+Test with one negative number:
+    >>> add_integer(-1)
+    97
 
 Test with one positive number:	
->>> add_integer(1)	
-99	
+    >>> add_integer(1)	
+    99	
 
 Test with one float number:	
->>> add_integer(1.1)	
-99	
+    >>> add_integer(1.1)	
+    99	
 
 Test with two float numbers:	
->>> add_integer(1.1, 1.1)	
-2
+    >>> add_integer(1.1, 1.1)	
+    2
