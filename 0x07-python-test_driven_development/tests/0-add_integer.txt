@@ -9,6 +9,10 @@ Test with two integers numbers:
 >>> add_integer(1, 2)
 3
 
-Test with two integers numbers:
+Test with two negative numbers:
 >>> add_integer(-1, -2)
 -3
+
+Test with one negative number and ane integer number:
+>>> add_integer(-1, 2)
+-1
