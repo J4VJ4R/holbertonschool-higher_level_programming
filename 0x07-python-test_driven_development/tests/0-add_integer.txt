@@ -5,14 +5,14 @@ In this case it does the module "0-add_integer"
 Import file:
 >>> add_integer = __import__('0-add_integer').add_integer
 
-Test with two integers numbers:
+Test with two positive integer numbers:
 >>> add_integer(1, 2)
 3
 
-Test with two negative numbers:
+Test with two negative integer numbers:
 >>> add_integer(-1, -2)
 -3
 
-Test with one negative number and ane integer number:
+Test with one negative number and one positive number:
 >>> add_integer(-1, 2)
--1
+1
