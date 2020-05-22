@@ -6,7 +6,7 @@ edge cases.
 """
 
 
-def matrix_divide(matrix, div):
+def matrix_divided(matrix, div):
     """ this is a function that
     divides all elements of a matrix
     """
