@@ -28,3 +28,7 @@ Test with one negative number:
 Test with one positive number:
 >>> add_integer(1)
 99
+
+Test with one float number:
+>>> add_integer(1.1)
+99
