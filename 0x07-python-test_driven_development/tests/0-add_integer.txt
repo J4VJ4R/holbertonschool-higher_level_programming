@@ -5,6 +5,10 @@ In this case it does the module "0-add_integer"
 Import file:
 >>> add_integer = __import__('0-add_integer').add_integer
 
-Test with two numbers:
+Test with two integers numbers:
 >>> add_integer(1, 2)
 3
+
+Test with two integers numbers:
+>>> add_integer(-1, -2)
+-3
