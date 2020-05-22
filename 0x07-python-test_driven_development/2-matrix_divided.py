@@ -6,20 +6,30 @@ edge cases.
 """
 
 
-def add_integer(a, b=98):
+def matrix_divide(matrix, div):
     """ this is a function that
-    return an add with two integers
+    divides all elements of a matrix
     """
 
-    if type(a) != int and type(a) != float:
-        raise TypeError("a must be an integer")
-    if type(b) != int and type(b) != float:
-        raise TypeError("b must be an integer")
-
-    if type(a) == float:
-        a = int(a)
-    if type(b) == float:
-        b = int(b)
+    e = "matrix must be a matrix (list of lists) of integers/floats"
     
-    return a + b
+    if type(matrix) != list or len(matrix) == 0 or matrix[0] is None:
+        raise TypeError(e)
 
+    for i in matrix
+        if len(i) == 0:
+            raise TypeError(e)
+        for j in matrix:
+            if type(j) != int and type(j) != float:
+                raise TypeError(e)
+    listReload = []
+    for s in matrix:
+        listReload.append(len(s))
+    if not all(item == listReload[0] for item in listReload):
+        raise TypeError("Each row of the matrix must have the same size")
+    if div == 0:
+        raise ZeroDivisionError("division by zero")
+
+    new_matrix = [[round(x / div, 2) for x in j] for j in matrix]
+
+    return new_matrix
