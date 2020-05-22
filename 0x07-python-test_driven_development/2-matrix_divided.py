@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
+""" 
 This is a function it does
-a different tests with the use
+a different tests with the use 
 edge cases.
 """
 
@@ -20,5 +20,6 @@ def add_integer(a, b=98):
         a = int(a)
     if type(b) == float:
         b = int(b)
-
+    
     return a + b
+
