@@ -20,3 +20,11 @@ Test with one negative number and one positive number:
 Test with one negative number and one positive float number:
 >>> add_integer(-1, 2.1)
 1
+
+Test with one negative number:
+>>> add_integer(-1)
+97
+
+Test with one positive number:
+>>> add_integer(1)
+99
