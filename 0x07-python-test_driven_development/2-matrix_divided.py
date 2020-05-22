@@ -16,7 +16,7 @@ def matrix_divide(matrix, div):
     if type(matrix) != list or len(matrix) == 0 or matrix[0] is None:
         raise TypeError(e)
 
-    for i in matrix
+    for i in matrix:
         if len(i) == 0:
             raise TypeError(e)
         for j in matrix:
