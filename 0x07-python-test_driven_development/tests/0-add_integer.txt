@@ -42,3 +42,7 @@ test error cases
     >>> add_integer(5, float("nan"))
     Traceback (most recent call last):
     ValueError: cannot convert float NaN to integer
+
+    >>> add_integer(True, False)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
