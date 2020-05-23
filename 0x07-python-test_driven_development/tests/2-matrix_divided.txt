@@ -33,9 +33,7 @@ error cases
     Traceback (most recent call last):
     TypeError: div must be a number
 
-    >>> matrix_divided("Universe", 9)
-    Traceback (most recent call last):
-    TypeError: matrix must be a matrix (list of list) of integers/floats
+    
 
 
     
