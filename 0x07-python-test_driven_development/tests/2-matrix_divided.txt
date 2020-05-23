@@ -21,8 +21,9 @@ correct cases
 
 error cases
 
-    >>> matrix_divided()
+    >>> matrix_divided([["Hello", "Universe"], [2, 2]], 2)
     Traceback (most recent call last):
-    TypeError: matrix_divided() missin 2 required positional arguments: 'matrix' and 'div'
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
+    
 
 
