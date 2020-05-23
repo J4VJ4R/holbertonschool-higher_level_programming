@@ -24,6 +24,26 @@ error cases
     >>> matrix_divided([["Hello", "Universe"], [2, 2]], 2)
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+    >>> matrix_divided([[1, 1, 1], [2, 2]], 5)
+    Traceback (most recent call last):
+    TypeError: Each row of the matrix must have the same size
+
+    >>> matrix_divided([[1, 1], [2, 2]], "Universe")
+    Traceback (most recent call last):
+    TypeError: div must be a number
+
+    >>> matrix_divided("Universe", 9)
+    Traceback (most recent call last):
+    TypeError: matrix must be a matrix (list of list) of integers/floats
+
+    >>> matrix_divided([[1, 1], [2, 2]], 0)
+    Traceback (most recent call last):
+    ZeroDivisionError: division by Zero
+
+    >>> matrix_divided([[1, 5]])
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 1 required position arguments: 'div'
     
 
 
