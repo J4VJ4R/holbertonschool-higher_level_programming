@@ -12,7 +12,7 @@ def matrix_divided(matrix, div):
     """
 
     e = "matrix must be a matrix (list of lists) of integers/floats"
-    
+
     if type(matrix) != list or len(matrix) == 0 or matrix[0] is None:
         raise TypeError(e)
 
