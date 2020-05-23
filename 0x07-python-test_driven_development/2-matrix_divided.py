@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" 
+"""
 This is a function it does
-a different tests with the use 
+a different tests with the use
 edge cases.
 """
 
