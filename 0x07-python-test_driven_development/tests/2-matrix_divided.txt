@@ -41,9 +41,7 @@ error cases
     Traceback (most recent call last):
     ZeroDivisionError: division by Zero
 
-    >>> matrix_divided([[1, 5]])
-    Traceback (most recent call last):
-    TypeError: matrix_divided() missing 1 required position arguments: 'div'
+    
     
 
 
