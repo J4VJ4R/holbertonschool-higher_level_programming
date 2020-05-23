@@ -37,9 +37,6 @@ error cases
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of list) of integers/floats
 
-    >>> matrix_divided([[1, 1], [2, 2]], 0)
-    Traceback (most recent call last):
-    ZeroDivisionError: division by Zero
 
     
     
