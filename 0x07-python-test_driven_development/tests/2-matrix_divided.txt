@@ -14,3 +14,8 @@ basic use
 divided by 2
 >>> matrix_divided([[1.0, -2.4, 3.1], [4.3, -5.3, -6.2]], 2)
 [[0.5, -1.2, 1.55], [2.15, -2.65, -3.1]]
+
+divided by 0
+>>> matrix_divided([[1.0, -2.4, 3.1], [4.3, -5.3, -6.2]], 0)
+Traceback (most recent call last):
+ZeroDivisionError: division by zero
