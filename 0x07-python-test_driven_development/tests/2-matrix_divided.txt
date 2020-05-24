@@ -75,4 +75,6 @@ TypeError: matrix_divided() missing 1 required positional argument: 'div'
     Traceback (most recent call last):
     TypeError: div must be a number
 
-    
+    >>> matrix_divided([["Hello", "Mouse"], [2, 2]], 2)
+    Traceback (most recent call last):
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
