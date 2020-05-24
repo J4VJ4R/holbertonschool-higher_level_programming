@@ -78,6 +78,7 @@ without divisor
     >>> matrix_divided([[1, 2, 3], [4, 5, 6]])
     Traceback (most recent call last):
     TypeError: matrix_divided() missing 1 required positional argument: 'div'
+    
 divided by a letter
     >>> matrix_divided([[1.0, -2.4, 3.1], [4.3, -5.3, -6.2]], 'z')
     Traceback (most recent call last):
