@@ -69,4 +69,7 @@ error cases
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of lists) of integers/floats
 
-    
+special character
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], '#')
+    Traceback (most recent call last):
+    TypeError: div must be a number
