@@ -19,3 +19,8 @@ divided by 0
 >>> matrix_divided([[1.0, -2.4, 3.1], [4.3, -5.3, -6.2]], 0)
 Traceback (most recent call last):
 ZeroDivisionError: division by zero
+
+divided by a letter
+>>> matrix_divided([[1.0, -2.4, 3.1], [4.3, -5.3, -6.2]], 'z')
+Traceback (most recent call last):
+TypeError: div must be a number
