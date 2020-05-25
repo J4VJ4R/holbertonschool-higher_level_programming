@@ -4,10 +4,11 @@
 This is a module for a class Rectangle
 """
 
+
 class Rectangle:
     """Class of a Rectangle"""
 
-    def __init__(self, width = 0, height = 0):
+    def __init__(self, width=0, height=0):
         """Initialize class"""
         self.width = width
         self.height = height
@@ -48,4 +49,4 @@ class Rectangle:
         """returns the rectangle perimeter"""
         if (self.__height) == 0 or (self.__width) == 0:
             return 0
-        return ((2 * self.__height) + (2 * self.width) )
+        return ((2 * self.__height) + (2 * self.width))
