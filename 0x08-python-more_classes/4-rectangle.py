@@ -69,3 +69,4 @@ class Rectangle:
         width = self.__width
         height = self.__height
         string = "Rectangle(" + str(width) + ", " + str(height) + ")"
+        return string
