@@ -70,7 +70,7 @@ class Rectangle:
         height = self.__height
         string = "Rectangle(" + str(width) + ", " + str(height) + ")"
         return string
-        
+
     def __del__(self):
         """Deleted it"""
         print("Bye rectangle...")
