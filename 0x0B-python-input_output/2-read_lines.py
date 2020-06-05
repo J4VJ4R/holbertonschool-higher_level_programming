@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 """
+module for read_lines
 a function that reads n lines of a text file
 (UTF8) and prints it to stdout:
 """
