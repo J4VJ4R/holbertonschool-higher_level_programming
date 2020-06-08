@@ -83,6 +83,10 @@ class Rectangle(Base):
 
     def display(self):
         """ prints in stdout """
+        print("{}".format("\n" * self.__y), end="")
+        for i in range(self.__height):            
+            print("{}".format(" " * self.__x),  end="")
+            print("{}".format("#" * self.__width))
 
     def __str__(self):
         i = self.id
