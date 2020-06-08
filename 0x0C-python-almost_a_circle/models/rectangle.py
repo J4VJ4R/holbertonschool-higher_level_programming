@@ -11,7 +11,7 @@ class Rectangle(Base):
     """Private instance attributes"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        super().__init__(id)
+        i = super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
@@ -80,3 +80,15 @@ class Rectangle(Base):
     def area(self):
         """ Return the area """
         return (self.__width * self.__height)
+
+    def display(self):
+        """ prints in stdout """
+
+    def __str__(self):
+        i = self.id
+        x = self.__x
+        y = self.__y
+        h = self.__height
+        w = self.__width
+
+        return "[{}] ({}) {}/{} - {}/{}  ".format("Rectangle", i, x, y, w, h)
