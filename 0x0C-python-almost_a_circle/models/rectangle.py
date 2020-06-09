@@ -84,7 +84,7 @@ class Rectangle(Base):
     def display(self):
         """ prints in stdout """
         print("{}".format("\n" * self.__y), end="")
-        for i in range(self.__height):            
+        for i in range(self.__height):
             print("{}".format(" " * self.__x),  end="")
             print("{}".format("#" * self.__width))
 
@@ -96,3 +96,11 @@ class Rectangle(Base):
         w = self.__width
 
         return "[{}] ({}) {}/{} - {}/{}  ".format("Rectangle", i, x, y, w, h)
+
+    def update(self, *args):
+        """ Update values of args """
+        c = 0
+        values = ["id", "width", "height", "x", "y"]
+        for v in args:
+            setattr(self, values[c], v)
+            c += 1
