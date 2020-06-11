@@ -44,7 +44,7 @@ class Rectangle(Base):
         if type(h) is not int:
             raise TypeError("{} must be an integer".format("height"))
         if h <= 0:
-            raise ValueError("{} must be > 0".format("widht"))
+            raise ValueError("{} must be > 0".format("height"))
         self.__height = h
 
     @property
