@@ -93,7 +93,6 @@ class Rectangle(Base):
         y = self.__y
         w = self.__width
         h = self.__height
-        
 
         return "[{}] ({}) {}/{} - {}/{}  ".format("Rectangle", i, x, y, w, h)
 
