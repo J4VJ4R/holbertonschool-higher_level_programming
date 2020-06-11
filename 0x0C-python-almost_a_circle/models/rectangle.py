@@ -94,7 +94,7 @@ class Rectangle(Base):
         w = self.__width
         h = self.__height
 
-        return "[{}] ({}) {}/{} - {}/{}  ".format("Rectangle", i, x, y, w, h)
+        return "[{}] ({}) {}/{} - {}/{}".format("Rectangle", i, x, y, w, h)
 
     def update(self, *args, **kwargs):
         """ Update values of args """
