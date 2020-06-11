@@ -70,7 +70,7 @@ class Rectangle(Base):
     def y(self, y):
         """ set the widht """
         if type(y) is not int:
-            raise TypeError("{} must be an integer".format("x"))
+            raise TypeError("{} must be an integer".format("y"))
         if y < 0:
             raise ValueError("{} must be >= 0".format("y"))
         self.__y = y
