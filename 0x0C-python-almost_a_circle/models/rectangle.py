@@ -4,6 +4,8 @@
 create a class rectangle and inherits
 from Base
 """
+
+
 from models.base import Base
 
 
@@ -89,6 +91,7 @@ class Rectangle(Base):
             print("{}".format("#" * self.__width))
 
     def __str__(self):
+        """ str in the variables """
         i = self.id
         x = self.__x
         y = self.__y
