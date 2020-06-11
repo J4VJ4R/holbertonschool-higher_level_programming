@@ -24,7 +24,6 @@ class Rectangle(Base):
         """ width of the rectangle """
         return self.__width
 
-     # a setter function
     @width.setter
     def width(self, w):
         """ set the widht """
@@ -39,7 +38,6 @@ class Rectangle(Base):
         """ height of the rectangle """
         return self.__height
 
-     # a setter function
     @height.setter
     def height(self, h):
         """ set the height """
@@ -54,7 +52,6 @@ class Rectangle(Base):
         """ x of the rectangle """
         return self.__x
 
-     # a setter function
     @x.setter
     def x(self, x):
         """ set the widht """
@@ -69,7 +66,6 @@ class Rectangle(Base):
         """ y of the rectangle """
         return self.__y
 
-     # a setter function
     @y.setter
     def y(self, y):
         """ set the widht """
