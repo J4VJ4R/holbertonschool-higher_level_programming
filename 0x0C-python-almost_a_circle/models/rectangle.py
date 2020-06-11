@@ -91,8 +91,9 @@ class Rectangle(Base):
         i = self.id
         x = self.__x
         y = self.__y
-        h = self.__height
         w = self.__width
+        h = self.__height
+        
 
         return "[{}] ({}) {}/{} - {}/{}  ".format("Rectangle", i, x, y, w, h)
 
