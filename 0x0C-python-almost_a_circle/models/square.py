@@ -12,4 +12,5 @@ class square(Rectangle):
     """ This is the class square """
     
     def __init__(self, size, x=0, y=0, id=None):
-        super().__init__(size, x, y, )
+        super().__init__( x, y, )
+        return "[{}] ({}) {}/{} - {}".format("Square", )
