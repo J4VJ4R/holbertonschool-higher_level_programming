@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 #list all states
 
+from sys import argv
 import MySQLdb
-import sys
 
-if __name__ == '__main__':
-    username = sys.argv[1]
-    password = sys.argv[2]
-    DB_Name = sys.argv[3]
+if __name__ == "__main__":
+    username = argv[1]
+    password = argv[2]
+    DB_Name = argv[3]
 
     DB = MySQLdb.connect(host="localhost",
                          port=3306,
