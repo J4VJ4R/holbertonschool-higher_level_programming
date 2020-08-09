@@ -21,6 +21,6 @@ if __name__ == '__main__':
 
     state = session.query(State).filter(State.id == 2).first()
     if state is not None:
-        state.name = 'New Mexito'
-    session.commit()
+        state.name = 'New Mexico'
+        session.commit()
     session.close()
