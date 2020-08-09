@@ -15,9 +15,12 @@ if __name__ == '__main__':
     engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'
                            .format(username, password, DB_name),
                            pool_pre_ping=True)
+    Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    row = session.query(State).filter(State.id == 2).first()
-    row.name = 'New Mexito'
+    state = session.query(State).filter(State.id == 2).first()
+    if state is not None:
+        state.name = 'New Mexito'
     session.commit()
+    session.close()
