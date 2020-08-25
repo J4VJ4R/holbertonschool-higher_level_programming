@@ -29,4 +29,3 @@ if __name__ == "__main__":
     for val in token.json().get("statuses"):
         print("[{}] {} by {}".format(val.get('id_str'), val.get('text'),
                                      val.get('user').get('name')))
-        
