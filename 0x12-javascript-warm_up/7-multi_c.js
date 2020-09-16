@@ -1,8 +1,9 @@
 #!/usr/bin/node
-const times = parseInt(process.argv[2]);
 
-if (!isNaN(times)) {
-  for (let i = 0; i < times; i++) {
+const limit = parseInt(process.argv[2]);
+
+if (limit) {
+  for (let i = 0; i < limit; ++i) {
     console.log('C is fun');
   }
 } else {
