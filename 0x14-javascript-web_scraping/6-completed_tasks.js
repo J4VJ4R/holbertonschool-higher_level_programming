@@ -22,4 +22,3 @@ request(url, (err, resp, body) => {
   }
   console.log(data);
 });
-
